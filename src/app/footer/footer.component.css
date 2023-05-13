@@ -1,0 +1,27 @@
+.site-footer{
+  background-color: #f3f0eb;
+}
+
+.widget-footer h6{
+  color: #304561;
+}
+
+.widget-footer p{
+  color: #362b24;
+}
+
+.footer-list li{
+  color: #362b24;
+}
+
+.widget-footer ul li a{
+  color:#362b24;
+}
+
+.footer-widget-subcribe p {
+  color:#362b24;
+}
+
+.ot-flaticon-send::before{
+  color: #cba219;
+}

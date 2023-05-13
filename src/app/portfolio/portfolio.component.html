@@ -1,0 +1,54 @@
+  <div class="page-header dtable text-center header-transparent pheader-portfolio">
+      <div class="dcell">
+          <div class="container">
+              <h1 class="page-title">Portfolio Grid Masonry</h1>
+              <ul id="breadcrumbs" class="breadcrumbs none-style">
+                  <li><a href="index.html">Home</a></li>
+                  <li class="active">Portfolio Grid Masonry</li>
+              </ul>
+          </div>
+      </div>
+  </div>
+
+
+
+
+
+
+<section class="our-portfolio-slide">
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-12 text-center theratio-align-center">
+              <div class="ot-heading is-dots">
+                  <span>[ our portfolio ]</span>
+                  <h2 class="main-heading">Some of Our Works<br>  and Case Studies for Clients</h2>
+              </div>
+              <div class="space-40"></div>
+              <div class="project-slider projects-grid style-1 img-scale m-0 owl-theme owl-carousel">
+                  <div *ngFor="let item of obj; index as i">
+                      <div  class="project-items category-20 ">
+                        <div class="projects-box">
+                            <div class="projects-thumbnail">
+                                <a href="portfolio-standar.html">
+                                    <img [src]="getImageSource(item.customerLogo)" alt="">
+                                </a>
+                                <div class="overlay">
+                                    <h5>{{item.name}}</h5>
+                                    <i class="ot-flaticon-add"></i>
+                                </div>
+                            </div>
+                            <div class="portfolio-info">
+                                <div class="portfolio-info-inner">
+                                    <h5><a class="title-link" href="portfolio-standar.html">{{item.name}}</a></h5>
+                                    <p class="portfolio-cates"><a href="#">Interior</a></p>
+                                </div>
+                                <a class="overlay" href="portfolio-standar.html"></a>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>

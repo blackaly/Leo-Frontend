@@ -1,0 +1,12 @@
+section{
+  background-color: #fff;
+}
+
+.ot-heading h2{
+  color: #362b24 !important;
+}
+
+.ot-tabs.tabs-light .tab-content {
+  color: #7e7e7e !important;
+  font-weight: 500;
+}

@@ -1,0 +1,12 @@
+.main-header-s2{
+  background-color: #fff;
+}
+
+.main-navigation ul li a{
+  color: #493f36;
+  font-weight: 400;
+}
+
+.ot-flaticon-menu::before{
+  color:#493f36;
+}

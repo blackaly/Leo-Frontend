@@ -1,0 +1,32 @@
+section{
+  background-color: #fff;
+}
+
+.ot-flaticon-sphere:before, .ot-flaticon-measure:before,
+.ot-flaticon-home:before,.ot-flaticon-house:before {
+  color:#cba219;
+}
+
+.content-box h5 a{
+  color: #362b24 !important;
+  font-weight: 100;
+}
+
+
+.content-box p{
+  color: #7e7e7e !important;
+}
+
+.ot-heading .main-heading{
+  color: #362b24;
+}
+
+.ot-button a{
+  border: 1px solid #cba219;
+  border-radius: 0.6rem;
+}
+
+.ot-button a:hover{
+  background-color: #304561;
+  border: 1px solid #304561;
+}
