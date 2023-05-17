@@ -8586,7 +8586,7 @@ ul.style-default li:last-child, ol.style-default li:last-child {
     background-repeat: no-repeat;
 }
 .cta-2 {
-    background-image: url(https://via.placeholder.com/1920x1000.png);
+    background-image: url("assets/images/FOOTER.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;

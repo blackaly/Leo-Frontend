@@ -8,12 +8,12 @@ import { SliderComponent } from './slider/slider.component';
 import { CustomerComponent } from './dashboard/customer/customer.component';
 
 const routes: Routes = [
-  {path: '/', redirectTo: 'home', pathMatch: 'full'},
+  {path: '', redirectTo: 'home', pathMatch: 'full'},
   { path: 'home', component: HomeComponent },
   { path: 'about', component: AboutUsComponent },
   { path: 'portfolio', component: PortfolioComponent },
   { path: 'contact', component: ContactComponent },
-  { path: 'customer', component: CustomerComponent }
+  { path: 'customer', component: CustomerComponent },
 ];
 
 @NgModule({
