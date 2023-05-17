@@ -7487,7 +7487,7 @@ section {
     margin-bottom: 40px;
 }
 .our-philosophy {
-    background-image: url(https://via.placeholder.com/1920x705.png);
+    background-image: url("assets/images/our-philo.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
