@@ -8,5 +8,18 @@ section{
 
 .ot-tabs.tabs-light .tab-content {
   color: #7e7e7e !important;
-  font-weight: 500;
+  font-weight: 500;font-weight: 900;
+}
+
+h2 .based-on{
+  color: #f7d379 !important ;
+  font-weight: 700;
+
+}
+h2 .design{
+  font-weight: 700;
+}
+
+h2 .your-style{
+  color: #212121;
 }

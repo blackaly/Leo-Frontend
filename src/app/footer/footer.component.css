@@ -25,3 +25,8 @@
 .ot-flaticon-send::before{
   color: #cba219;
 }
+
+.row{
+  display: flex;
+  justify-content: space-between;
+}

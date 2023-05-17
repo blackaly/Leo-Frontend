@@ -10,3 +10,11 @@
 .ot-flaticon-menu::before{
   color:#493f36;
 }
+
+.top-info h6{
+  color: black !important;
+}
+
+.top-info p{
+  color: #493f36 !important;
+}

@@ -1,13 +1,13 @@
 section{
-background-color: #BE9F78;
+background-color: rgb(47, 45, 45);
 }
 
 .features-content{
-  background-color: #cba219;
+  background-color: #c9a55b;
 
 }
 
-.features-content a{
+.features-content h6{
   color: #362b24;
 }
 
