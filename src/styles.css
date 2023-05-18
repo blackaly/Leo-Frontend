@@ -49,6 +49,9 @@ Tags: one-column, two-columns, left-sidebar, right-sidebar, full-width-template,
 @import url('https://fonts.googleapis.com/css?family=Titillium Web:200,300,300i,400,400i,600,600i,700,700i,900');
 @import url('https://fonts.googleapis.com/css?family=Josefin Sans:300,300i,400,400i,500,500i,600,600i,700,700i');
 
+html::-webkit-scrollbar{
+  display: none;
+}
 
 html {
   overflow-x: hidden;
@@ -7233,7 +7236,7 @@ section {
   background-image: url('https://via.placeholder.com/1920x500.png');
 }
 .page-header-contact {
-  background-image: url('assets/images/contact_us.png');
+  background-image: url('assets/images/contact_us.webp');
 }
 .pheader-service-detail1 {
   background-image: url('https://via.placeholder.com/1920x500.png');
@@ -7245,7 +7248,7 @@ section {
     background-image: url(https://via.placeholder.com/1920x500.png);
 }
 .pheader-about {
-    background-image: url(assets/images/about-us.png);
+    background-image: url(assets/images/about-us.webp);
 }
 .pheader-process {
     background-image: url(https://via.placeholder.com/1920x500.png);
@@ -8586,7 +8589,7 @@ ul.style-default li:last-child, ol.style-default li:last-child {
     background-repeat: no-repeat;
 }
 .cta-2 {
-    background-image: url("assets/images/FOOTER.jpg");
+    background-image: url("assets/images/FOOTER.webp");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
